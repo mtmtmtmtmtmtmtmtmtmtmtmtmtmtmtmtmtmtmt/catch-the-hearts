@@ -30,7 +30,7 @@ body {
 
 #menu {
   width: 800px;
-  height: 600px;
+  height: 500px;
   background-color: rgb(83, 83, 83);
 }
 
@@ -40,6 +40,12 @@ body {
   text-shadow: 0 0 5px #ff0062;
 }
 
+p {
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+}
+
 .difficulties {
   margin-top: 4rem;
   text-align: center;
@@ -47,6 +53,7 @@ body {
   list-style: none;
   line-height: 4rem;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 li:nth-child(1) {
@@ -72,4 +79,11 @@ li:nth-child(4) {
 li:nth-child(5) {
   color: #ab52ff;
   font-weight: 600;
+}
+
+.falling-heart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
 }
