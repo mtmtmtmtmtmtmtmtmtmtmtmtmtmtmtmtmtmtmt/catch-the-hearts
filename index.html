@@ -3,48 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="asset/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="asset/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="asset/favicon-16x16.png"
-    />
+    <title>Catch The Hearts</title>
     <link rel="stylesheet" href="./src/css/style.css" />
     <script src="src/js/script.js" defer></script>
-    <title>Catch The Hearts</title>
   </head>
   <body>
     <div id="container">
       <div id="menu">
         <h1>Catch The Hearts</h1>
-        <p>
-          Note: If the platform speed feels unstable, try zooming in or resizing
-          the window to reduce its width.
-        </p>
-        <div>
-          <ul class="difficulties">
-            <li class="difficulty">Easy</li>
-            <li class="difficulty">Medium</li>
-            <li class="difficulty">Hard</li>
-            <li class="difficulty">Extreme</li>
-            <li class="difficulty">Im Cool As Fuck</li>
-          </ul>
-        </div>
-        <p>
-          use `A` and `D` to move left and right and use `Shift` to speed up
+
+        <ul class="difficulties">
+          <li class="difficulty">Easy</li>
+          <li class="difficulty">Medium</li>
+          <li class="difficulty">Hard</li>
+          <li class="difficulty">Extreme</li>
+          <li class="difficulty">Im Cool As Fuck</li>
+        </ul>
+
+        <p class="controls">
+          Desktop: A / D to move, Shift to sprint<br />
+          Mobile: Tap or drag to move
         </p>
       </div>
+
       <div id="platform"></div>
     </div>
   </body>
